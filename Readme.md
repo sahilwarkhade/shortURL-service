@@ -17,14 +17,15 @@ This Micro-SaaS project allows users to:
 ## 🚀 Live Demo
 
 - 🌐 **Frontend**: [https://linkspin.vercel.app](https://linkspin.vercel.app)  
-- 🔗 **Shortened URL Format**: `https://linkspin.vercel.app/<shortcode>`
+- 🔗 **Shortened URL Format**: `https://linkspin.onrender.com/<shortcode>`
 
 ---
 
 ## 🔐 Test Login
 
-Email: intern@dacoid.com
-Password: Test123
+- Email: intern@dacoid.com
+- Password: Test123
+
 
 ---
 
@@ -68,8 +69,6 @@ Password: Test123
 - NanoID for short codes
 - UserAgent & Request-IP for analytics
 
----
-
 
 ---
 
@@ -77,11 +76,11 @@ Password: Test123
 
 Create two `.env` files:
 
-### `server/.env` 
+### `server/.env`
+
 ### `client/.env`
 
-(refer .env.example)
-
+- refer .env.example
 
 ---
 
@@ -90,10 +89,15 @@ Create two `.env` files:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/linkspin.git
-cd linkspin
+git clone https://github.com/sahilwarkhade/shortURL-service.git
+cd shortURL-service
+
+### 2. Install Dependencies
 cd server && npm install
 cd ../client && npm install
+
+
+### 4. Start Development Servers
 # In one terminal
 cd server
 npm start
@@ -101,6 +105,7 @@ npm start
 # In another terminal
 cd client
 npm run dev
+
 
 
 
