@@ -8,7 +8,10 @@ const app = express();
 
 
 // Middleware
-app.use(cors());
+app.use(cors({
+    origin: 'https://linkspin.vercel.app',
+    credentials: true,
+  }));
 app.use(express.json());
 app.use("/user",userRoutes);
 app.use("/",linkRoutes)
