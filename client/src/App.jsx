@@ -8,12 +8,12 @@ import {
 import { useSelector } from "react-redux";
 import Dashboard from "./pages/Dashboard";
 import Login from "./pages/Login";
-import CreateLink from "./pages/CreateLink";
 import QRCodeButton from "./components/QRCodeButton";
 import ChartPage from "./pages/ChartPage";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
+import CreateLink from "./pages/Createlink";
 
 const App = () => {
   const isAuthenticated = useSelector((state) => state.auth.token);
@@ -49,3 +49,5 @@ const App = () => {
 };
 
 export default App;
+
+
